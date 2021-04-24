@@ -16,7 +16,7 @@ BroadcastX is a simple BDSX Plugin that lets you automatically broadcast message
 
 ## Configuration
 
-You can configure everything within [`/resources/BroadcastXSettings.json`](resources/BroadcastXSettings.json) :
+You can configure everything within [`BroadcastXSettings.json`](resources/BroadcastXSettings.json) :
 
 ```json
 {
@@ -52,7 +52,7 @@ Use `/broadcast <message>` to broadcast a message !
 
 Clone the repository into your BDSX folder :
 
-```shell
+```git
 git clone https://github.com/Se7en-dev/BroadcastX.git
 ```
 
