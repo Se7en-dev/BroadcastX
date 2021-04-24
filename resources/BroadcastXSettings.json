@@ -1,0 +1,10 @@
+{
+  "prefix": "§9[Broadcast] §r",
+  "broadcast_interval": 300,
+  "messages": [
+    "Hello, world !",
+    "BDSX is awesome !",
+    "Birds aren't real"
+  ],
+  "random_order": false
+}
