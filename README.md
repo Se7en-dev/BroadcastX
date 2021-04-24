@@ -1,3 +1,5 @@
+<div style="text-align:center"><img src="broadcastX.png" alt="logo" width="512"/></div>
+
 # BroadcastX - A BDSX Plugin
 
 BroadcastX is a simple BDSX Plugin that lets you automatically broadcast messages at a configurable interval of time !
