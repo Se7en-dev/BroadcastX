@@ -38,7 +38,7 @@ You can configure everything within [`BroadcastXSettings.json`](resources/Broadc
 | `prefix`             | String   | Broadcast messages start with this value      | Leave blank for no prefix                      |
 | `broadcast_interval` | Integer  | Time interval, in seconds, between broadcasts |                                                |
 | `messages`           | String[] | Messages to broadcast                         |                                                |
-| `random_order`       | Bool     | Broadcast messages in a random order          | If disabled, messages are broadcasted in order |
+| `random_order`       | Boolean  | Broadcast messages in a random order          | If disabled, messages are broadcasted in order |
 
 ## Broadcast command
 
@@ -52,7 +52,7 @@ Use `/broadcast <message>` to broadcast a message !
 
 ## Installation and usage
 
-Clone the repository into your BDSX folder :
+Clone the repository into your plugins folder :
 
 ```git
 git clone https://github.com/Se7en-dev/BroadcastX.git
@@ -60,14 +60,13 @@ git clone https://github.com/Se7en-dev/BroadcastX.git
 
 or download and extract the zip file from [Releases](https://github.com/Se7en-dev/BroadcastX/releases).
 
+You can also install this plugin using npm :
 
-
-Add this line within `index.ts` :
-
-```typescript
-import './BroadcastX';
+```shell script
+npm i @bdsx/broadcastx
 ```
 
+or using BDSX's `plugin-manager`
 
 
 ##### Configure the plugin to your liking and enjoy !
@@ -78,4 +77,4 @@ import './BroadcastX';
 
 This plugin is licensed under **GNU General Public License v3.0**
 
-Thank you for using my plugin ! If you have any questions add me on Discord : `Se7en#9999`
+Thank you for using my plugin ! If you have any questions add me on Discord : `Se7en#1712`

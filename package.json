@@ -1,0 +1,22 @@
+{
+  "name": "@bdsx/broadcastx",
+  "version": "1.0.0",
+  "description": "BroadcastX is a simple BDSX Plugin that lets you automatically broadcast messages at a configurable interval of time !",
+  "main": "index.js",
+  "keywords": [],
+  "author": "se7en-dev",
+  "license": "ISC",
+  "bdsxPlugin": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepare": "tsc || exit 0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.20.20",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "bdsx": "file:../bdsx",
+    "eslint": "^7.32.0"
+  }
+}
